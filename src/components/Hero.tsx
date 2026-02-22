@@ -17,7 +17,7 @@ const Hero = () => {
       </h1>
 
       {/* Subtitle */}
-      <p className="max-w-xl mt-6 font-sans text-text-main">
+      <p className="max-w-xl mt-6 font-sans text-text-subtile">
         I build beautiful, modern, and responsive web experiences with React,
         TailwindCSS, and Node.js — focusing on clean code and smooth user
         experiences.

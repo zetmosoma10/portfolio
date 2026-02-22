@@ -2,7 +2,7 @@ import image from "../assets/IMG_2622.jpg";
 
 const About = () => {
   return (
-    <section id="about" className="px-6 py-20 bg-dark-light">
+    <section id="about" className="px-6 py-20 bg-dark-blue">
       <div className="flex flex-col items-center max-w-6xl gap-12 mx-auto md:flex-row">
         {/* Left: Profile Image */}
         <div className="relative group">
@@ -17,7 +17,7 @@ const About = () => {
 
         {/* Right: About Text */}
         <div className="max-w-2xl text-center md:text-left">
-          <h2 className="mb-6 font-bold text-transparent text-3x font-heading md:text-4xl bg-linear-to-r from-accent-blue via-accent-purple to-accent-cyan bg-clip-text">
+          <h2 className="mb-6 font-bold text-transparent text-3xl font-heading md:text-4xl bg-linear-to-r from-accent-blue via-accent-purple to-accent-cyan bg-clip-text">
             About Me
           </h2>
 

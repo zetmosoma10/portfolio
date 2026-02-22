@@ -17,12 +17,12 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-dark-blue/95 border-b border-indigo-900/40">
       <div className="flex items-center justify-between max-w-6xl px-6 py-4 mx-auto">
         {/* Logo / Name */}
-        <Link
-          to="/"
-          className="text-2xl font-bold text-transparent font-heading bg-linear-to-r from-indigo-400 via-blue-400 to-cyan-400 bg-clip-text"
+        <a
+          href="#home"
+          className="font-grotest text-2xl font-bold text-transparent font-heading bg-linear-to-r from-indigo-400 via-blue-400 to-cyan-400 bg-clip-text"
         >
           {"<"}Zet.dev{" />"}
-        </Link>
+        </a>
 
         {/* Desktop Links */}
         <ul className="hidden space-x-8 text-text-main md:flex">
