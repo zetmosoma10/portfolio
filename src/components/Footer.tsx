@@ -16,14 +16,14 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex items-center gap-6 text-gray-400">
           <a
-            href="https://github.com/"
+            href="https://github.com/zetmosoma10"
             target="_blank"
             className="hover:text-white hover:drop-shadow-[0_0_6px_#6b9dfc] transition"
           >
             <FiGithub size={22} />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/zetmosoma/"
             target="_blank"
             className="hover:text-[#0A66C2] hover:drop-shadow-[0_0_6px_#0A66C2] transition"
           >

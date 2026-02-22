@@ -27,4 +27,8 @@
   body {
     font-family: var(--font-sans);
   }
+
+  .input {
+    @apply w-full font-sans p-3 rounded-lg bg-[#0e1627] border border-indigo-900 text-gray-200 focus:outline-none focus:border-indigo-500 transition;
+  }
 }
