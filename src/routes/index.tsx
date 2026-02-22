@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import { createFileRoute } from "@tanstack/react-router";
@@ -9,6 +10,7 @@ function App() {
     <main className=" ">
       <Navbar />
       <Hero />
+      <About />
     </main>
   );
 }
