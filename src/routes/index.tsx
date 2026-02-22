@@ -1,3 +1,4 @@
+import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import { createFileRoute } from "@tanstack/react-router";
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <main className=" ">
       <Navbar />
+      <Hero />
     </main>
   );
 }
