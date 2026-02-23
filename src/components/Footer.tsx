@@ -30,7 +30,7 @@ const Footer = () => {
             <FiLinkedin size={22} />
           </a>
           <a
-            href="https://twitter.com/"
+            href="https://x.com/zetmosoma10"
             target="_blank"
             className="hover:text-[#1DA1F2] hover:drop-shadow-[0_0_6px_#1DA1F2] transition"
           >

@@ -75,7 +75,7 @@ const Contact = () => {
             <FiLinkedin size={28} />
           </a>
           <a
-            href="https://twitter.com/"
+            href="https://x.com/zetmosoma10"
             target="_blank"
             className="text-gray-400 hover:text-[#1DA1F2] hover:scale-110 transition"
           >
