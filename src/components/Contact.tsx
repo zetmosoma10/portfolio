@@ -45,16 +45,18 @@ const Contact = () => {
       className="min-h-screen flex flex-col items-center justify-center px-6 py-20 bg-linear-to-b from-dark-light via-[#0a0f1a] to-[#05080f]"
     >
       <div className="max-w-4xl w-full text-center space-y-10">
-        {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-linear-to-r from-indigo-400 via-blue-400 to-cyan-400">
-          Get In Touch
-        </h2>
+        <div className="space-y-4">
+          {/* Heading */}
+          <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-linear-to-r from-indigo-400 via-blue-400 to-cyan-400">
+            Get In Touch
+          </h2>
 
-        {/* Subtext */}
-        <p className="text-gray-400 max-w-xl mx-auto">
-          Whether you want to talk about web development, collaborate on a
-          project, or just say hi — my inbox is always open.
-        </p>
+          {/* Subtext */}
+          <p className="text-gray-400 max-w-xl mx-auto">
+            Whether you want to talk about web development, collaborate on a
+            project, or just say hi — my inbox is always open.
+          </p>
+        </div>
 
         {/* Social Links */}
         <div className="flex justify-center gap-6 mt-6">
