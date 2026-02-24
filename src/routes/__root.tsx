@@ -32,14 +32,14 @@ export const Route = createRootRoute({
 
       // Open Graph (for link previews on social media)
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://yoursite.com" },
+      { property: "og:url", content: "https://zetmosoma.dev/" },
       { property: "og:title", content: "Zet Mosoma | Fullstack Web Developer" },
       {
         property: "og:description",
         content:
           "Fullstack web developer specializing in React, TypeScript, Node.js, Express.js, MongoDB and modern web technologies. Check out my projects and get in touch.",
       },
-      { property: "og:image", content: "https://yoursite.com/og-image.png" },
+      { property: "og:image", content: "https://zetmosoma.dev/website.png" },
 
       // Twitter Card
       { name: "twitter:card", content: "summary_large_image" },
@@ -52,7 +52,7 @@ export const Route = createRootRoute({
         content:
           "Fullstack web developer specializing in React, TypeScript, Node.js, Express.js, MongoDB and modern web technologies. Check out my projects and get in touch.",
       },
-      { name: "twitter:image", content: "https://yoursite.com/website.png" },
+      { name: "twitter:image", content: "https://zetmosoma.dev/website.png" },
     ],
     links: [
       {
@@ -84,7 +84,7 @@ export const Route = createRootRoute({
           "@context": "https://schema.org",
           "@type": "Person",
           name: "Zet Mosoma",
-          url: "https://yoursite.com",
+          url: "https://zetmosoma.dev",
           jobTitle: "Fullstack Web Developer",
           sameAs: [
             "https://github.com/zetmosoma10",
